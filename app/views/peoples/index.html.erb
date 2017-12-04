@@ -1,0 +1,10 @@
+<h1>People Information Website</h1>
+
+<h3>You are in people place</h3>
+<div>Showing all persons</div>
+<% @persons.each do |person| %>
+	<div>name: <%= person.name%></div>
+	<div>address: <%= person.address%></div>
+<% end %>
+
+<%= render 'partials/navbar' %>

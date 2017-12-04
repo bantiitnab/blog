@@ -1,0 +1,12 @@
+<div>Person name is <%= @person.name %></div>
+<div>Person age is <%= @person.age %></div>
+<div>Person address is <%= @person.address %></div>
+
+<div id="person-id" data-id="<%=@person.id%>"></div>
+<div style="padding-top: 20px">
+	<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+	<button type="button" onclick="deletePerson()">Delete me!</button>
+	<button type="button" id="button-jq">Delete me using else!</button>
+</div>
+
+
