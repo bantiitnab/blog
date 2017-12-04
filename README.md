@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basic getting started code.. with very basic things happening like creating routes, mapping url to them, rendering views from them.
+Creating relations between models. 
+using forms and ajax calls to talk with server..
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It's not properly written... but its very basic so .. it won't be complicated..
